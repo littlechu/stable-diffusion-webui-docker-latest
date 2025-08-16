@@ -9,9 +9,9 @@ RUN --mount=type=cache,target=/root/.cache/pip \
   git clone https://github.com/comfyanonymous/ComfyUI.git ${ROOT} && \
   cd ${ROOT} && \
   git checkout master && \
-  git reset --hard 276f8fce9f5a80b500947fb5745a4dde9e84622d && \
-  pip install -r requirements.txt
-
+  pip install -r requirements.txt && \
+  cd custom_nodes && \
+  git clone https://github.com/ltdrdata/ComfyUI-Manager comfyui-manager
 WORKDIR ${ROOT}
 COPY . /docker/
 RUN chmod u+x /docker/entrypoint.sh && cp /docker/extra_model_paths.yaml ${ROOT}

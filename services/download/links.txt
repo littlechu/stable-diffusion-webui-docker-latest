@@ -1,16 +1,46 @@
-https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt
-  out=Stable-diffusion/v1-5-pruned-emaonly.ckpt
-https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.ckpt
-  out=VAE/vae-ft-mse-840000-ema-pruned.ckpt
-https://huggingface.co/runwayml/stable-diffusion-inpainting/resolve/main/sd-v1-5-inpainting.ckpt
-  out=Stable-diffusion/sd-v1-5-inpainting.ckpt
-https://github.com/TencentARC/GFPGAN/releases/download/v1.3.4/GFPGANv1.4.pth
-  out=GFPGAN/GFPGANv1.4.pth
-https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth
-  out=RealESRGAN/RealESRGAN_x4plus.pth
-https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth
-  out=RealESRGAN/RealESRGAN_x4plus_anime_6B.pth
-https://heibox.uni-heidelberg.de/f/31a76b13ea27482981b4/?dl=1
-  out=LDSR/project.yaml
-https://heibox.uni-heidelberg.de/f/578df07c8fc04ffbadf3/?dl=1
-  out=LDSR/model.ckpt
+https://huggingface.co/lodestones/Chroma/resolve/main/chroma-unlocked-v33.safetensors
+  out=diffusion_models/chroma-unlocked-v33.safetensors
+https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn_scaled.safetensors
+  out=text_encoders/t5xxl_fp8_e4m3fn_scaled.safetensors
+https://huggingface.co/Comfy-Org/Lumina_Image_2.0_Repackaged/resolve/main/split_files/vae/ae.safetensors
+  out=vae/ae.safetensors
+https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors
+  out=text_encoders/t5xxl_fp16.safetensors
+https://huggingface.co/Comfy-Org/stable-diffusion-v1-5-archive/resolve/main/v1-5-pruned-emaonly-fp16.safetensors
+  out=checkpoints/v1-5-pruned-emaonly-fp16.safetensors
+https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/text_encoders/clip_g_hidream.safetensors
+  out=text_encoders/clip_g_hidream.safetensors
+https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/text_encoders/clip_l_hidream.safetensors
+  out=text_encoders/clip_l_hidream.safetensors
+https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/text_encoders/llama_3.1_8b_instruct_fp8_scaled.safetensors
+  out=text_encoders/llama_3.1_8b_instruct_fp8_scaled.safetensors
+https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/diffusion_models/hidream_e1_1_bf16.safetensors
+  out=diffusion_models/hidream_e1_1_bf16.safetensors
+https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors
+  out=text_encoders/clip_l.safetensors
+https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/diffusion_models/hidream_i1_fast_fp8.safetensors
+  out=diffusion_models/hidream_i1_fast_fp8.safetensors
+https://huggingface.co/Lightricks/LTX-Video/resolve/main/ltx-video-2b-v0.9.safetensors
+  out=checkpoints/ltx-video-2b-v0.9.safetensors
+https://civitai.com/api/download/models/14856?type=Model&format=SafeTensor&size=full&fp=fp16
+  out=loras/MoXinV1.safetensors
+https://civitai.com/api/download/models/32988?type=Model&format=SafeTensor&size=full&fp=fp16
+  out=loras/blindbox_v1_mix.safetensors
+https://civitai.com/api/download/models/128713?type=Model&format=SafeTensor&size=pruned&fp=fp16
+  out=checkpoints/dreamshaper_8.safetensors
+https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors
+  out=checkpoints/flux1-dev-fp8.safetensors
+https://huggingface.co/mp3pintyo/FLUX.1/blob/main/flux1-fill-dev.safetensors
+  out=diffusion_models/flux1-fill-dev.safetensors
+https://huggingface.co/Comfy-Org/flux1-kontext-dev_ComfyUI/resolve/main/split_files/diffusion_models/flux1-dev-kontext_fp8_scaled.safetensors
+  out=diffusion_models/flux1-dev-kontext_fp8_scaled.safetensors
+https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors
+  out=checkpoints/DreamShaper_8_pruned.safetensors
+https://huggingface.co/Comfy-Org/Omnigen2_ComfyUI_repackaged/resolve/main/split_files/text_encoders/qwen_2.5_vl_fp16.safetensors
+  out=text_encoders/qwen_2.5_vl_fp16.safetensors
+https://huggingface.co/Comfy-Org/Omnigen2_ComfyUI_repackaged/resolve/main/split_files/diffusion_models/omnigen2_fp16.safetensors
+  out=diffusion_models/omnigen2_fp16.safetensors
+https://huggingface.co/Comfy-Org/flux1-schnell/resolve/main/flux1-schnell-fp8.safetensors
+  out=checkpoints/flux1-schnell-fp8.safetensors
+https://huggingface.co/Comfy-Org/FLUX.1-Krea-dev_ComfyUI/resolve/main/split_files/diffusion_models/flux1-krea-dev_fp8_scaled.safetensors
+  out=diffusion_models/flux1-krea-dev_fp8_scaled.safetensors
